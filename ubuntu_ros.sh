@@ -19,7 +19,8 @@ sudo apt-get install ros-hydro-desktop-full # for ubuntu 12.04
 sudo rosdep init
 rosdep update
 
-echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
+#echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
+echo "source /opt/ros/hydro/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
 sudo apt-get install python-rosinstall
