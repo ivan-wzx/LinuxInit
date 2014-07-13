@@ -1,5 +1,8 @@
 #w! /bin/bash
 sudo apt-get update
+# Tips:
+# apt-cache search $(pkgname) - search package
+
 
 # -y Automatic yes to prompts
 # -q Quite, Produces output suitable for logging, omitting progress indicators
@@ -8,7 +11,7 @@ sudo apt-get install -y -q vim git
 git config --global user.name "Ivan Wu"
 git config --global user.email ivan.wzx@gmail.com
 
-sudo apt-get -y -q install build-essential libxss1 mesa-utils 
+sudo apt-get -y -q install build-essential libxss1 mesa-utils htop tightvncserver
 
 # output some useful system info
 uname -a >> sysinfo #uname -mrs
