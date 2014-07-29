@@ -31,6 +31,7 @@ sudo apt-get -y -q install ttf-wqy-microhei ttf-wqy-zenhei fonts-inconsolata
 
 # install some useful software
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb | dpkg -i
+wget http://download.oracle.com/otn-pub/java/jdk-nb/8u11-8.0/jdk-8u11-nb-8-linux-x64.sh | sh
 
 # setup the zsh shell environment
 #sudo apt-get install zsh
